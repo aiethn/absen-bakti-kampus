@@ -204,7 +204,7 @@
                         ['data4', 1200, 1300, 1450, 1600, 1520, 1820],
                     ]
                 });
-            }, 1000);
+            }, 10);
             setTimeout(function() {
                 chart.load({
                     columns: [
@@ -272,14 +272,16 @@
                 bindto: "#c3chart_pie",
                 data: {
                     columns: [
-                        ['data1', 30],
-                        ['data2', 50]
+                        ['sakit', 30],
+                        ['izin', 50],
+                        ['alfa', 20],
                     ],
                     type: 'pie',
 
                     colors: {
-                         data1: '#5969ff',
-                        data2: '#ff407b'
+                         sakit: '#5969ff',
+                         izin: '#ff407b',
+                         alfa : '#ffc750',
 
 
                     }
